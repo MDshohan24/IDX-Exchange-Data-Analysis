@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / credentials
+.env
+.env.*
+!.env.example
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python / analysis outputs
+*.pkl
+*.pickle
+*.joblib
+
+# Temporary files
+*.tmp
+*.temp
